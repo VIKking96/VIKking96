@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="628" height="576" viewBox="0 0 628 576" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="15">
+<svg xmlns="http://www.w3.org/2000/svg" width="628" height="622" viewBox="0 0 628 622" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Menlo,Consolas,monospace" font-size="15">
   <defs>
     <linearGradient id="logo" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="162" y2="156">
       <stop offset="0" stop-color="#00facf"/><stop offset="1" stop-color="#46b43d"/>
@@ -11,7 +11,7 @@
     </style>
   </defs>
 
-  <rect width="628" height="576" rx="12" fill="#04090F" stroke="#1f3a33"/>
+  <rect width="628" height="622" rx="12" fill="#04090F" stroke="#1f3a33"/>
   <path d="M0 12a12 12 0 0 1 12-12h604a12 12 0 0 1 12 12v22H0z" fill="#020508"/>
   <circle cx="22" cy="17" r="6" fill="#d75640"/><circle cx="42" cy="17" r="6" fill="#3cc172"/><circle cx="62" cy="17" r="6" fill="#00facf"/>
   <text x="314.0" y="22" text-anchor="middle" fill="#5b6065" font-size="13">ahmed@VIKking96: ~</text>
@@ -19,7 +19,7 @@
   <text x="26" y="66"><tspan fill="#55ed82">❯</tspan><tspan x="46" fill="#e5fffb">fastfetch</tspan></text>
 
   <g class="fade">
-  <g transform="translate(26 225)" fill="url(#logo)" shape-rendering="crispEdges">
+  <g transform="translate(26 248)" fill="url(#logo)" shape-rendering="crispEdges">
     <rect x="0" y="0" width="162" height="7"/>
     <rect x="0" y="6" width="162" height="7"/>
     <rect x="0" y="12" width="12" height="7"/>
@@ -111,7 +111,7 @@
   <text x="214" y="96" font-size="18" font-weight="700"><tspan fill="#55ed82">ahmed</tspan><tspan fill="#e5fffb">@</tspan><tspan fill="#00facf">VIKking96</tspan></text>
   <line x1="214" y1="105" x2="376" y2="105" stroke="#1f3a33"/>
 
-  <rect x="214" y="120" width="388" height="170" rx="6" fill="none" stroke="#1f3a33"/>
+  <rect x="214" y="120" width="388" height="216" rx="6" fill="none" stroke="#1f3a33"/>
   <rect x="358" y="111" width="100" height="18" fill="#04090F"/>
   <text x="408" y="125" text-anchor="middle" fill="#00facf" font-weight="700">Human</text>
   <text x="226" y="150" fill="#5b6065">├</text>
@@ -124,39 +124,45 @@
   <text x="244" y="196" fill="#00facf">Degree</text>
   <text x="361" y="196" fill="#e5fffb">B.Sc. CS (Big Data) &#x27;24</text>
   <text x="226" y="219" fill="#5b6065">├</text>
-  <text x="244" y="219" fill="#00facf">Aspiring</text>
-  <text x="361" y="219" fill="#e5fffb">DevOps Eng</text>
+  <text x="244" y="219" fill="#00facf">Uptime</text>
+  <text x="361" y="219" fill="#e5fffb">2y 4m since grad</text>
   <text x="226" y="242" fill="#5b6065">├</text>
-  <text x="244" y="242" fill="#00facf">Learning</text>
-  <text x="361" y="242" fill="#e5fffb">Linux · Bash · Docker</text>
-  <text x="226" y="265" fill="#5b6065">└</text>
-  <text x="244" y="265" fill="#00facf">Goal</text>
-  <text x="361" y="265" fill="#e5fffb">first DevOps / Cloud role</text>
-  <rect x="214" y="316" width="388" height="170" rx="6" fill="none" stroke="#1f3a33"/>
-  <rect x="358" y="307" width="100" height="18" fill="#04090F"/>
-  <text x="408" y="321" text-anchor="middle" fill="#79b262" font-weight="700">Software</text>
-  <text x="226" y="346" fill="#5b6065">├</text>
-  <text x="244" y="346" fill="#79b262">OS</text>
-  <text x="361" y="346" fill="#e5fffb">Omarchy (Arch, btw)</text>
-  <text x="226" y="369" fill="#5b6065">├</text>
-  <text x="244" y="369" fill="#79b262">WM</text>
-  <text x="361" y="369" fill="#e5fffb">Hyprland</text>
+  <text x="244" y="242" fill="#00facf">Aspiring</text>
+  <text x="361" y="242" fill="#e5fffb">DevOps Eng</text>
+  <text x="226" y="265" fill="#5b6065">├</text>
+  <text x="244" y="265" fill="#00facf">Learning</text>
+  <text x="361" y="265" fill="#e5fffb">Linux · Bash · Docker</text>
+  <text x="226" y="288" fill="#5b6065">├</text>
+  <text x="244" y="288" fill="#00facf">Commits</text>
+  <text x="361" y="288" fill="#e5fffb">5 this month</text>
+  <text x="226" y="311" fill="#5b6065">└</text>
+  <text x="244" y="311" fill="#00facf">Goal</text>
+  <text x="361" y="311" fill="#e5fffb">first DevOps / Cloud role</text>
+  <rect x="214" y="362" width="388" height="170" rx="6" fill="none" stroke="#1f3a33"/>
+  <rect x="358" y="353" width="100" height="18" fill="#04090F"/>
+  <text x="408" y="367" text-anchor="middle" fill="#79b262" font-weight="700">Software</text>
   <text x="226" y="392" fill="#5b6065">├</text>
-  <text x="244" y="392" fill="#79b262">Browser</text>
-  <text x="361" y="392" fill="#e5fffb">Zen</text>
+  <text x="244" y="392" fill="#79b262">OS</text>
+  <text x="361" y="392" fill="#e5fffb">Omarchy (Arch, btw)</text>
   <text x="226" y="415" fill="#5b6065">├</text>
-  <text x="244" y="415" fill="#79b262">Editor</text>
-  <text x="361" y="415" fill="#e5fffb">Neovim</text>
+  <text x="244" y="415" fill="#79b262">WM</text>
+  <text x="361" y="415" fill="#e5fffb">Hyprland</text>
   <text x="226" y="438" fill="#5b6065">├</text>
-  <text x="244" y="438" fill="#79b262">Multiplexer</text>
-  <text x="361" y="438" fill="#e5fffb">herdr</text>
-  <text x="226" y="461" fill="#5b6065">└</text>
-  <text x="244" y="461" fill="#79b262">Shell</text>
-  <text x="361" y="461" fill="#e5fffb">bash</text>
+  <text x="244" y="438" fill="#79b262">Browser</text>
+  <text x="361" y="438" fill="#e5fffb">Zen</text>
+  <text x="226" y="461" fill="#5b6065">├</text>
+  <text x="244" y="461" fill="#79b262">Editor</text>
+  <text x="361" y="461" fill="#e5fffb">Neovim</text>
+  <text x="226" y="484" fill="#5b6065">├</text>
+  <text x="244" y="484" fill="#79b262">Multiplexer</text>
+  <text x="361" y="484" fill="#e5fffb">herdr</text>
+  <text x="226" y="507" fill="#5b6065">└</text>
+  <text x="244" y="507" fill="#79b262">Shell</text>
+  <text x="361" y="507" fill="#e5fffb">bash</text>
 
-  <rect x="214.0" y="506" width="43.2" height="14" rx="3" fill="#1d2227"/><rect x="263.2" y="506" width="43.2" height="14" rx="3" fill="#d75640"/><rect x="312.5" y="506" width="43.2" height="14" rx="3" fill="#2b8b37"/><rect x="361.8" y="506" width="43.2" height="14" rx="3" fill="#3cc172"/><rect x="411.0" y="506" width="43.2" height="14" rx="3" fill="#5b8a4f"/><rect x="460.2" y="506" width="43.2" height="14" rx="3" fill="#c75663"/><rect x="509.5" y="506" width="43.2" height="14" rx="3" fill="#00facf"/><rect x="558.8" y="506" width="43.2" height="14" rx="3" fill="#e5fffb"/>
+  <rect x="214.0" y="552" width="43.2" height="14" rx="3" fill="#1d2227"/><rect x="263.2" y="552" width="43.2" height="14" rx="3" fill="#d75640"/><rect x="312.5" y="552" width="43.2" height="14" rx="3" fill="#2b8b37"/><rect x="361.8" y="552" width="43.2" height="14" rx="3" fill="#3cc172"/><rect x="411.0" y="552" width="43.2" height="14" rx="3" fill="#5b8a4f"/><rect x="460.2" y="552" width="43.2" height="14" rx="3" fill="#c75663"/><rect x="509.5" y="552" width="43.2" height="14" rx="3" fill="#00facf"/><rect x="558.8" y="552" width="43.2" height="14" rx="3" fill="#e5fffb"/>
   </g>
 
-  <text x="26" y="552" fill="#55ed82">❯</text>
-  <rect class="cursor" x="44" y="538" width="9" height="18" fill="#e5fffb"/>
+  <text x="26" y="598" fill="#55ed82">❯</text>
+  <rect class="cursor" x="44" y="584" width="9" height="18" fill="#e5fffb"/>
 </svg>

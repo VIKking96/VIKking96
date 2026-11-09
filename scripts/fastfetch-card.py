@@ -3,25 +3,73 @@
 
 Usage:  python3 scripts/fastfetch-card.py
 Edit the HUMAN / SOFTWARE lists below, rerun, then commit and push.
+GitHub Actions (.github/workflows/profile.yml) also reruns it every day, so the
+live rows (Uptime, Commits) stay fresh. Commits need a token: GITHUB_TOKEN in
+Actions, or `gh auth token` on the laptop.
 Keep values short (about 24 characters): the card sits next to the GIF,
 so long lines make it wider and the text smaller.
-The logo comes from ~/.local/share/omarchy/icon.txt (drawn as pixel blocks,
+The logo is a copy of ~/.local/share/omarchy/icon.txt (assets/omarchy-icon.txt) (drawn as pixel blocks,
 so it looks the same in every browser, no font needed).
 Colours: the Omarchy "Dos Moos" theme (~/.config/omarchy/current/theme/colors.toml).
 """
+import json
+import os
+import subprocess
+import urllib.request
+from datetime import date, datetime, timezone
 from pathlib import Path
 from html import escape
 
-LOGO_FILE = Path.home() / ".local/share/omarchy/icon.txt"
-OUT = Path(__file__).resolve().parent.parent / "assets/fastfetch.svg"
+ROOT = Path(__file__).resolve().parent.parent
+LOGO_FILE = ROOT / "assets/omarchy-icon.txt"
+OUT = ROOT / "assets/fastfetch.svg"
+
+GITHUB_USER = "VIKking96"
+GRADUATED = date(2024, 7, 1)   # Uptime counts from here (fix the month if needed)
+
+
+def uptime():
+    """Time since graduation, fastfetch style: '2y 4m'."""
+    today = date.today()
+    months = (today.year - GRADUATED.year) * 12 + today.month - GRADUATED.month
+    if today.day < GRADUATED.day:
+        months -= 1
+    return f"{months // 12}y {months % 12}m since grad"
+
+
+def commits_this_month():
+    """Commits I made this month, from GitHub's contribution graph."""
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        try:
+            token = subprocess.run(["gh", "auth", "token"], capture_output=True, text=True, check=True).stdout.strip()
+        except (OSError, subprocess.CalledProcessError):
+            return "?"
+    now = datetime.now(timezone.utc)
+    start = now.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+    query = """query($login: String!, $from: DateTime!, $to: DateTime!) {
+      user(login: $login) { contributionsCollection(from: $from, to: $to) { totalCommitContributions } } }"""
+    body = json.dumps({"query": query, "variables": {
+        "login": GITHUB_USER, "from": start.isoformat(), "to": now.isoformat()}}).encode()
+    req = urllib.request.Request("https://api.github.com/graphql", data=body,
+                                 headers={"Authorization": f"bearer {token}", "User-Agent": "fastfetch-card"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            n = json.load(r)["data"]["user"]["contributionsCollection"]["totalCommitContributions"]
+    except Exception:  # network or API trouble: don't break the card
+        return "?"
+    return f"{n} this month"
+
 
 USER, HOST = "ahmed", "VIKking96"
 HUMAN = [
     ("Name", "Ahmed Amr Helal"),
     ("Location", "Cairo, Egypt"),
     ("Degree", "B.Sc. CS (Big Data) '24"),
+    ("Uptime", uptime()),
     ("Aspiring", "DevOps Eng"),
     ("Learning", "Linux · Bash · Docker"),
+    ("Commits", commits_this_month()),
     ("Goal", "first DevOps / Cloud role"),
 ]
 SOFTWARE = [
