@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/VIKking96">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=9ECE6A&center=true&vCenter=true&width=640&lines=%24+whoami;CS+grad+%E2%86%92+DevOps+engineer+in+training;Arch+Linux+(Omarchy)+%2B+Hyprland+%2B+Neovim+daily;Pipelines%2C+clouds+and+Bash+scripts;Shipping+one+project+at+a+time+%F0%9F%9A%80" alt="Typing intro"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=9ECE6A&center=true&vCenter=true&width=680&lines=%24+whoami;How+do+you+know+if+someone+uses+Arch+Linux%3F;Don%27t+worry%2C+they%27ll+tell+you.+%F0%9F%98%84;Pipelines%2C+clouds+and+Bash+scripts;Shipping+one+project+at+a+time+%F0%9F%9A%80" alt="Typing intro"/>
   </a>
 </p>
 
@@ -17,22 +17,15 @@
 
 ---
 
-<table>
-<tr>
-<td width="58%" valign="top">
-
 ### 👋 About me
 
-```yaml
-name:      Ahmed Amr Helal
-based_in:  Cairo, Egypt 🇪🇬
-degree:    B.Sc. Computer Science (Big Data), Nile University, 2024
-training:  Route Academy DevOps Diploma (C6, until Mar 2027)
-daily_os:  Arch Linux (Omarchy) + Hyprland
-editor:    Neovim + tmux
-languages: [Arabic (native), English (fluent)]
-looking_for: my first DevOps / Cloud role
-```
+<p align="center">
+  <img src="assets/fastfetch.svg" alt="fastfetch-style card: Ahmed Amr Helal, Cairo, CS grad training as a DevOps engineer on Omarchy + Hyprland + Neovim + herdr" width="100%"/>
+</p>
+
+<table>
+<tr>
+<td width="58%" valign="middle">
 
 - 🔭 Currently learning **Linux administration, Bash, Docker and CI/CD**
 - 🌱 Next on the path: **Kubernetes, Terraform, Ansible, monitoring**
