@@ -27,7 +27,7 @@ HUMAN = [
 SOFTWARE = [
     ("OS", "Omarchy (Arch, btw)"),
     ("WM", "Hyprland"),
-    ("Theme", "Dos Moos"),
+    ("Browser", "Zen"),
     ("Editor", "Neovim"),
     ("Multiplexer", "herdr"),
     ("Shell", "bash"),
