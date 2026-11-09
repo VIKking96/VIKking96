@@ -20,7 +20,7 @@ HUMAN = [
     ("Name", "Ahmed Amr Helal"),
     ("Location", "Cairo, Egypt"),
     ("Degree", "B.Sc. CS (Big Data) '24"),
-    ("Training", "Route DevOps → Mar 2027"),
+    ("Aspiring", "DevOps Eng"),
     ("Learning", "Linux · Bash · Docker"),
     ("Goal", "first DevOps / Cloud role"),
 ]
@@ -30,7 +30,7 @@ SOFTWARE = [
     ("Theme", "Dos Moos"),
     ("Editor", "Neovim"),
     ("Multiplexer", "herdr"),
-    ("Shell", "bash + Starship"),
+    ("Shell", "bash"),
 ]
 
 # Dos Moos

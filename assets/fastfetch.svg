@@ -124,8 +124,8 @@
   <text x="244" y="196" fill="#00facf">Degree</text>
   <text x="361" y="196" fill="#e5fffb">B.Sc. CS (Big Data) &#x27;24</text>
   <text x="226" y="219" fill="#5b6065">├</text>
-  <text x="244" y="219" fill="#00facf">Training</text>
-  <text x="361" y="219" fill="#e5fffb">Route DevOps → Mar 2027</text>
+  <text x="244" y="219" fill="#00facf">Aspiring</text>
+  <text x="361" y="219" fill="#e5fffb">DevOps Eng</text>
   <text x="226" y="242" fill="#5b6065">├</text>
   <text x="244" y="242" fill="#00facf">Learning</text>
   <text x="361" y="242" fill="#e5fffb">Linux · Bash · Docker</text>
@@ -152,7 +152,7 @@
   <text x="361" y="438" fill="#e5fffb">herdr</text>
   <text x="226" y="461" fill="#5b6065">└</text>
   <text x="244" y="461" fill="#79b262">Shell</text>
-  <text x="361" y="461" fill="#e5fffb">bash + Starship</text>
+  <text x="361" y="461" fill="#e5fffb">bash</text>
 
   <rect x="214.0" y="506" width="43.2" height="14" rx="3" fill="#1d2227"/><rect x="263.2" y="506" width="43.2" height="14" rx="3" fill="#d75640"/><rect x="312.5" y="506" width="43.2" height="14" rx="3" fill="#2b8b37"/><rect x="361.8" y="506" width="43.2" height="14" rx="3" fill="#3cc172"/><rect x="411.0" y="506" width="43.2" height="14" rx="3" fill="#5b8a4f"/><rect x="460.2" y="506" width="43.2" height="14" rx="3" fill="#c75663"/><rect x="509.5" y="506" width="43.2" height="14" rx="3" fill="#00facf"/><rect x="558.8" y="506" width="43.2" height="14" rx="3" fill="#e5fffb"/>
   </g>

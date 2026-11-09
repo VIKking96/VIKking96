@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ahmed-amr-helal"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:ahmed.amrohelal@gmail.com"><img src="https://img.shields.io/badge/Email-00facf?style=for-the-badge&logo=gmail&logoColor=04090F" alt="Email"/></a>
+  <a href="mailto:ahmed.amrohelal@gmail.com"><img src="https://img.shields.io/badge/Email-0d5c4a?style=for-the-badge&logo=gmail&logoColor=e5fffb" alt="Email"/></a>
   <img src="https://komarev.com/ghpvc/?username=VIKking96&style=for-the-badge&color=46b43d&label=PROFILE+VIEWS" alt="Profile views"/>
 </p>
 
