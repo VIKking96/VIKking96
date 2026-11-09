@@ -46,6 +46,19 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           games: pacman
 
+      - name: Recolour the dark version to Dos Moos
+        run: |
+          sudo sed -i \
+            -e 's/#0d1117/#04090F/gI' \
+            -e 's/#161b22/#1d2227/gI' \
+            -e 's/#8b949e/#5b6065/gI' \
+            -e 's/#ffffff/#e5fffb/gI' \
+            -e 's/#0e4429/#1f4d33/gI' \
+            -e 's/#006d32/#2b8b37/gI' \
+            -e 's/#26a641/#46b43d/gI' \
+            -e 's/#39d353/#00facf/gI' \
+            dist/pacman-contribution-graph-dark.svg
+
       - name: Push to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
