@@ -34,7 +34,7 @@ def uptime():
     months = (today.year - GRADUATED.year) * 12 + today.month - GRADUATED.month
     if today.day < GRADUATED.day:
         months -= 1
-    return f"{months // 12}y {months % 12}m since grad"
+    return f"{months // 12}y {months % 12}m"
 
 
 def commits_this_month():
