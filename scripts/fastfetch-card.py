@@ -92,7 +92,7 @@ def main(shell):
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{FONT}" font-size="14">
   <defs>
-    <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="logo" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="{lw}" y2="{lh}">
       <stop offset="0" stop-color="{BLUE}"/><stop offset="1" stop-color="{PURPLE}"/>
     </linearGradient>
     <style>
