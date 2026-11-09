@@ -41,23 +41,22 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4      # first: it empties the folder
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
           games: pacman
 
-      - name: Recolour the dark version to Dos Moos
+      - name: Repaint it in Dos Moos colours
         run: |
-          sudo sed -i \
-            -e 's/#0d1117/#04090F/gI' \
-            -e 's/#161b22/#1d2227/gI' \
-            -e 's/#8b949e/#5b6065/gI' \
-            -e 's/#ffffff/#e5fffb/gI' \
-            -e 's/#0e4429/#1f4d33/gI' \
-            -e 's/#006d32/#2b8b37/gI' \
-            -e 's/#26a641/#46b43d/gI' \
-            -e 's/#39d353/#00facf/gI' \
-            dist/pacman-contribution-graph-dark.svg
+          pip install --quiet pillow
+          sudo chown -R "$USER" dist
+          python scripts/recolor-pacman.py dist/pacman-contribution-graph-dark.svg
 
       - name: Push to the output branch
         uses: crazy-max/ghaction-github-pages@v4
