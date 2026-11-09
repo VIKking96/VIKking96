@@ -67,7 +67,6 @@ HUMAN = [
     ("Location", "Cairo, Egypt"),
     ("Degree", "B.Sc. CS (Big Data) '24"),
     ("Uptime", uptime()),
-    ("Aspiring", "DevOps Eng"),
     ("Learning", "Linux · Bash · Docker"),
     ("Commits", commits_this_month()),
     ("Goal", "first DevOps / Cloud role"),
